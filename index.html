@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <header class="bg-secoundary-100">
+    <div>
+      <div class="header-logo">
+        <a href="/"><img src="./image/site-logo.png" alt=""></a>
+        <p class="fs-semimedium fw-bold text-primary">Virtual Reality</p>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="primary-navigation">
+          <button class="close-button" onclick="toggleNav()">
+            <i class="fa-solid fa-xmark text-primary"></i>
+          </button>
+          <ul role="list" class="nav-items">
+            <li><a href="/">Home</a></li>
+            <li class="dropdown-menu dropdown-toggle">
+              <a href=" #">About Us
+                <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="dropdown">
+                <a href="#">Team</a>
+                <a href="#">Testimonial</a>
+                <a href="#">FQA</a>
+              </div>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" onclick="toggleNav()">
+          <i class="fa-solid fa-bars text-primary"></i>
+        </button>
+        <div>
+          <div class="login">
+            <i class="fa-solid fa-user fs-smaller text-primary"></i>
+            <p class="text-primary fw-bold" style="font-size: 0.85rem;">Log in</p>
+          </div>
+          <button class="cart">
+            <img src="./image/cart-svg.png" alt="">
+          </button>
+          <button class="get-started-btn">
+            <p class="fs-small fw-regular">Get Started</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="bg-primary-100">
+      <div class="slider">
+        <div class="slide_viewer">
+          <div class="slide_group">
+            <div class="slide">
+              <div class="slide-image">
+                <img src="./image/hero-silder-image.png" alt="">
+              </div>
+              <div class="slider-content container">
+                <div>
+                  <p class="text-secoundary fw-regular animate-on-scroll" style="font-size: 1.7rem;">Where Reality Ends
+                    And</p>
+                  <h1 class="fs-xx-larger text-primary fw-bold animate-on-scroll">Imagination Begins</h1>
+                  <p class="fs-small text-primary fw-regular pd-top animate-on-scroll">We specialize in providing
+                    cutting-edge Virtual
+                    Reality
+                    solutions that transport
+                    you to
+                    immersive digital worlds.</p>
+                  <div class="animate-on-scroll">
+                    <button class="explore-btn">Explore More</button>
+                    <div>
+                      <button class="pulse-btn"><i class="fa-solid fa-caret-right text-primary"></i></button>
+                      <p class="text-primary fs-semimedium fw-bold">Watch Intro</p>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-image">
+                <img src="./image/hero-silder-image-01.png" alt="">
+              </div>
+              <div class="slider-content container">
+                <div>
+                  <p class="text-secoundary fw-regular animate-on-scroll" style="font-size: 1.7rem;">Where Reality Ends
+                    And</p>
+                  <h1 class="fs-xx-larger text-primary fw-bold animate-on-scroll">Imagination Begins</h1>
+                  <p class="fs-small text-primary fw-regular pd-top animate-on-scroll">We specialize in providing
+                    cutting-edge Virtual
+                    Reality
+                    solutions that transport
+                    you to
+                    immersive digital worlds.</p>
+                  <div class="animate-on-scroll">
+                    <button class="explore-btn">Explore More</button>
+                    <div>
+                      <button class="pulse-btn"><i class="fa-solid fa-caret-right text-primary"></i></button>
+                      <p class="text-primary fs-semimedium fw-bold">Watch Intro</p>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide_buttons">
+      </div>
+      <div class="next-perv-btn">
+        <button class="previous_btn" title="Previous">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="next_btn" title="Next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+
+    <section id="features">
+      <div class="container">
+        <div class="features animate-on-scroll">
+          <div>
+            <h2 class="fs-large text-primary fw-bold pd-bottom">Why Choose Us ?</h2>
+            <p class="text-primary fs-small fw-regular pd-block">Lorem is simply dummy text of the printing and
+              typesetting.</p>
+            <button class="explore-more-btn">Explore More</button>
+          </div>
+          <div>
+            <div class="animate-on-scroll">
+              <img src="./image/services-icon.png" alt="">
+              <div>
+                <a href="#" class="fs-medium fw-bold text-primary">Modern Technology</a>
+                <p class="text-primary fs-small fw-regular pd-top">Lorem is simply dummy text of the printing and
+                  typesetting.
+                </p>
+              </div>
+            </div>
+            <div class="animate-on-scroll">
+              <img src="./image/services-icon-2.png" alt="">
+              <div>
+                <a href="" class="fs-medium fw-bold text-primary">Digital Strategy</a>
+                <p class="text-primary fs-small fw-regular pd-top">Lorem is simply dummy text of the printing and
+                  typesetting.
+                </p>
+              </div>
+            </div>
+            <div class="animate-on-scroll">
+              <img src="./image/services-icon-3.png" alt="">
+              <div>
+                <a href="" class="fs-medium fw-bold text-primary">Scalability</a>
+                <p class="text-primary fs-small fw-regular pd-top">Lorem is simply dummy text of the printing and
+                  typesetting.
+                </p>
+              </div>
+            </div>
+            <div class="animate-on-scroll">
+              <img src="./image/services-icon-4.png" alt="">
+              <div>
+                <a href="" class="fs-medium fw-bold text-primary">Versatile Applications</a>
+                <p class="text-primary fs-small fw-regular pd-top">Lorem is simply dummy text of the printing and
+                  typesetting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <div class="container">
+        <div class="achievements">
+          <h1 class="text-primary fs-x-larger fw-bold animate-on-scroll">Experience a New Dimension of Reality</h1>
+          <div>
+            <div>
+              <p class="text-primary fs-small fw-regular animate-on-scroll">Change the workflow for your WordPress site,
+                control
+                everything
+                from
+                Site
+                editor without using any extra plugins. Improved speed, web vitals score and
+                SEO to get better positions</p>
+              <div>
+                <div class="animate-on-scroll">
+                  <img src="./image/image-01.png" alt="">
+                </div>
+                <div class="animate-on-scroll">
+                  <img src="./image/image-02.png" alt="">
+                </div>
+              </div>
+              <ul role="list">
+                <li class="animate-on-scroll">
+                  <span class="text-primary fs-larger fw-bold">98 <b class="text-secoundary fw-bold">%</b></span>
+                  <p class="text-primary fs-small fw-regular">Satisfied Clients </p>
+                </li>
+                <li class="animate-on-scroll">
+                  <span class="text-primary fs-larger fw-bold">99 <b class="text-secoundary fw-bold">+</b></span>
+                  <p class="text-primary fs-small fw-regular">Popular Features</p>
+                </li>
+                <li class="animate-on-scroll">
+                  <span class="text-primary fs-larger fw-bold">10<b class="text-secoundary fw-bold">M</b></span>
+                  <p class="text-primary fs-small fw-regular">Clients Worldwide</p>
+                </li>
+              </ul>
+            </div>
+            <div class="animate-on-scroll">
+              <img src="./image/image-03.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="text-secoundary fs-small fw-regular animate-on-scroll">Services</p>
+            <h2 class="text-primary fs-larger fw-bold animate-on-scroll">Discover Our Best VR Services</h2>
+          </div>
+          <button class="animate-on-scroll">View All Services</button>
+        </div>
+      </div>
+      <div class="wrapper animate-on-scroll">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <div class="card ">
+            <div class="card-img">
+              <img src="./image/image-04.png" alt="" draggable="false">
+            </div>
+            <div class="card-info">
+              <p class="text-secoundary fs-small fw-regular">Services</p>
+              <a href="" class="text-primary fs-medium fw-bold">Marketing VR</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./image/image-05.png" alt="" draggable="false">
+            </div>
+            <div class="card-info">
+              <p class="text-secoundary fs-small fw-regular">Services</p>
+              <a href="" class="text-primary fs-medium fw-bold">Game VR</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="./image/image-06.png" alt="" draggable="false">
+            </div>
+            <div class="card-info">
+              <p class="text-secoundary fs-small fw-regular">Services</p>
+              <a href="" class="text-primary fs-medium fw-bold">Commercial VR</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="./image/image-07.png" alt="" draggable="false">
+            </div>
+            <div class="card-info">
+              <p class="text-secoundary fs-small fw-regular">Services</p>
+              <a href="" class="text-primary fs-medium fw-bold">Product VR</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./image/image-06.png" alt="" draggable="false">
+            </div>
+            <div class="card-info">
+              <p class="text-secoundary fs-small fw-regular">Services</p>
+              <a href="" class="text-primary fs-medium fw-bold">Commercial VR</a>
+            </div>
+          </div>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+
+    </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="text-secoundary fs-small fw-regular animate-on-scroll">Testimonials</p>
+            <h2 class="text-primary fs-larger fw-bold animate-on-scroll">Trusted By Big Companies</h2>
+          </div>
+          <button class="animate-on-scroll">Give Feedback</button>
+        </div>
+
+        <div class="slide-container swiper testimonials-cards animate-on-scroll">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div>
+                  <img src="./image/image-07.png" alt="">
+                  <div class="pd-top">
+                    <h3 class="text-primary fs-semimedium fw-bold">Jane Doe</h3>
+                    <p class="text-secoundary fs-small fw-bold">Founder/ CEO</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-primary fw-regular pd-top pd-block">“It was really great working with Mobi team
+                    and I am
+                    happy I
+                    was
+                    introduced to this team! It’s not easy to work on a website some one
+                    else I am grateful that Mobi team.”
+                  </p>
+                  <span class="pd-top">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div>
+                  <img src="./image/image-07.png" alt="">
+                  <div class="pd-top">
+                    <h3 class="text-primary fs-semimedium fw-bold">Jane Doe</h3>
+                    <p class="text-secoundary fs-small fw-bold">Founder/ CEO</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-primary fw-regular pd-top pd-block">“It was really great working with Mobi team
+                    and I am
+                    happy I
+                    was
+                    introduced to this team! It’s not easy to work on a website some one
+                    else I am grateful that Mobi team.”
+                  </p>
+                  <span class="pd-top">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div>
+                  <img src="./image/image-07.png" alt="">
+                  <div class="pd-top">
+                    <h3 class="text-primary fs-semimedium fw-bold">Jane Doe</h3>
+                    <p class="text-secoundary fs-small fw-bold">Founder/ CEO</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-primary fw-regular pd-top pd-block">“It was really great working with Mobi team
+                    and I am
+                    happy I
+                    was
+                    introduced to this team! It’s not easy to work on a website some one
+                    else I am grateful that Mobi team.”
+                  </p>
+                  <span class="pd-top">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-navBtn">
+            <button class="swiper-button-prev" title="Previous">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="swiper-button-next" title="Next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-news">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="text-primary fs-small fw-regular animate-on-scroll">Our News </p>
+            <h2 class="text-primary fs-larger fw-bold animate-on-scroll">Our Latest News and Articles</h2>
+          </div>
+          <button class="animate-on-scroll">All News</button>
+        </div>
+        <div class="our-news">
+          <div class="our-news-cards">
+            <div class="card card1 animate-on-scroll">
+              <div class="card-img">
+                <img src="./image/image-08.png" alt="">
+              </div>
+              <div class="card-info">
+                <div class="card-time">
+                  <i class="fa-regular fa-clock text-primary"></i>
+                  <p class="text-primary fs-small fw-regular">October 21, 2022 </p>
+                </div>
+                <a href="" class="underlined underlined-thin text-primary fw-bold">Latest Fashion Trends in
+                  This summer</a>
+              </div>
+            </div>
+            <div class="card card2 animate-on-scroll">
+              <div class="card-img">
+                <img src="./image/image-09.png" alt="">
+              </div>
+              <div class="card-info">
+                <a href="" class="text-primary fs-smaller fw-bold">Latest Fashion Trends in
+                  This summer</a>
+                <div class="card-time">
+                  <i class="fa-regular fa-clock text-primary"></i>
+                  <p class="text-primary fs-small fw-regular">October 21, 2022 </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card3 animate-on-scroll">
+              <div class="card-img">
+                <img src="./image/image-10.png" alt="">
+              </div>
+              <div class="card-info">
+                <a href="" class="text-primary fs-smaller fw-bold">Highlights New York
+                  Fashion Week 2022</a>
+                <div class="card-time">
+                  <i class="fa-regular fa-clock text-primary"></i>
+                  <p class="text-primary fs-small fw-regular">October 21, 2022 </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card4 animate-on-scroll">
+              <div class="card-img">
+                <img src="./image/image-11.png" alt="">
+              </div>
+              <div class="card-info">
+                <a href="" class="text-primary fs-smaller fw-bold">The best apps to your
+                  next trip</a>
+                <div class="card-time">
+                  <i class="fa-regular fa-clock text-primary"></i>
+                  <p class="text-primary fs-small fw-regular">October 21, 2022 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing-tables">
+      <div class="container">
+        <div class="section-heading">
+          <p class="text-secoundary fs-small fw-regular animate-on-scroll">Pricing Table</p>
+          <h2 class="text-primary fs-large fw-bold animate-on-scroll">Choose Your Product</h2>
+        </div>
+
+        <div class="pricing-cards">
+          <div class="card animate-on-scroll">
+            <div>
+              <h1 class="text-primary fs-x-larger fw-bold">$9.99</h1>
+              <span class="text-primary">/<small class="fs-smaller fw-bold text-primary-200">month</small></span>
+            </div>
+            <p class="text-secoundary fs-small fw-bold pd-block">Basic Plan</p>
+            <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of
+              the printing and typesetting
+              industry</p>
+
+            <ul role="list" class="pd-top">
+              <li><b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">Consultation</span>
+              </li>
+              <li><b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">ProjectPlanning</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">Project Render</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">24 / 7 Support</span>
+              </li>
+            </ul>
+            <button class="order-btn">Order Now</button>
+          </div>
+
+
+          <div class="card animate-on-scroll">
+            <div>
+              <h1 class="text-primary fs-x-larger fw-bold">$15.99</h1>
+              <span class="text-primary">/<small class="fs-smaller fw-bold text-primary-200">month</small></span>
+            </div>
+            <p class="text-secoundary fs-small fw-bold pd-block">Regular Plan</p>
+            <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of
+              the printing and typesetting
+              industry
+            </p>
+            <ul role="list" class="pd-top">
+              <li><b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">Consultation</span>
+              </li>
+              <li><b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">ProjectPlanning</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">Project Render</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">24 / 7 Support</span>
+              </li>
+            </ul>
+            <button class="order-btn active-btn">Order Now</button>
+          </div>
+
+          <div class="card animate-on-scroll">
+            <div>
+              <h1 class="text-primary fs-x-larger fw-bold">$27.99</h1>
+              <span class="text-primary">/<small class="fs-smaller fw-bold text-primary-200">month</small></span>
+            </div>
+            <p class="text-secoundary fs-small fw-bold pd-block">Deluxe Plan</p>
+            <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of
+              the printing and typesetting
+              industry
+            </p>
+            <ul role="list" class="pd-top">
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">Consultation</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">ProjectPlanning</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">Project Render</span>
+              </li>
+              <li>
+                <b class="text-secoundary fw-bold">&#x2713;</b>
+                <span class="text-primary fs-small fw-regular">24 / 7 Support</span>
+              </li>
+            </ul>
+            <button class="order-btn">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="client-services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="text-secoundary fs-small fw-regular animate-on-scroll">Our Services For Clients</p>
+            <h2 class="text-primary fs-larger fw-bold animate-on-scroll">Why Choose Us ?</h2>
+          </div>
+          <button class="animate-on-scroll">View All Services</button>
+        </div>
+
+        <div class="client-services-cards">
+          <div class="card animate-on-scroll">
+            <img src="./image/services-icon-2.png" alt="">
+            <div class="card-info">
+              <a href="" class="text-primary fs-medium fw-bold">Digital Strategy</a></h3>
+              <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of the
+                printing and typesetting.</p>
+              <button class="text-secoundary fw-bold pd-top">View Details</button>
+            </div>
+          </div>
+
+          <div class="card animate-on-scroll">
+            <img src="./image/services-icon.png" alt="">
+            <div class="card-info">
+              <a href="" class="text-primary fs-medium fw-bold">Modern Technology</a></h3>
+              <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of the
+                printing and typesetting.</p>
+              <button class="text-secoundary fw-bold pd-top">View Details</button>
+            </div>
+          </div>
+
+
+          <div class="card animate-on-scroll">
+            <img src="./image/services-icon-3.png" alt="">
+            <div class="card-info">
+              <a href="" class="text-primary fs-medium fw-bold">Scalability</a></h3>
+              <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of the
+                printing and typesetting.</p>
+              <button class="text-secoundary fw-bold pd-top">View Details</button>
+            </div>
+          </div>
+
+
+          <div class="card animate-on-scroll">
+            <img src="./image/services-icon-4.png" alt="">
+            <div class="card-info pd-top">
+              <a href="" class="text-primary fs-medium fw-bold">Versatile Applications</a></h3>
+              <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of the
+                printing and typesetting.</p>
+              <button class="text-secoundary fw-bold pd-top">View Details</button>
+            </div>
+          </div>
+
+
+          <div class="card animate-on-scroll">
+            <img src="./image/services-icon-5.png" alt="">
+            <div class="card-info">
+              <a href="" class="text-primary fs-medium fw-bold">Cost Effective</a></h3>
+              <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of the
+                printing and typesetting.</p>
+              <button class="text-secoundary fw-bold pd-top">View Details</button>
+            </div>
+          </div>
+
+          <div class="card animate-on-scroll">
+            <img src="./image/services-icon-6.png" alt="">
+            <div class="card-info">
+              <a href="" class="text-primary fs-medium fw-bold">Diverse Approach</a></h3>
+              <p class="text-primary fs-small fw-regular">Lorem is simply dummy text of the
+                printing and typesetting.</p>
+              <button class="text-secoundary fw-bold pd-top">View Details</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="animate-on-scroll">View More</button>
+        </div>
+      </div>
+    </section>
+    <section id="our-clients">
+      <div class="container">
+        <div class="our-clients animate-on-scroll">
+          <img
+            src="https://demo.gutenify.com/gutenify-virtual-reality-pro/wp-content/themes/gutenify-virtual-reality/images/client1.png"
+            alt="">
+          <img src="./image/client2.png" alt="">
+          <img src="./image/client3.png" alt="">
+          <img src="./image/client4.png" alt="">
+          <img src="./image/client5.png" alt="">
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo pd-bottom">
+            <img src="./image/site-logo.png" alt="">
+            <p class="text-primary fs-semimedium fw-regular">Virtual Reality</p>
+          </div>
+          <p class="text-primary fs-small fw-regular pd-top">Nsectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut
+            enim ad minim veniam</p>
+        </div>
+        <div class="quick-links pd-bottom">
+          <h3 class="text-primary fs-semimedium fs-larger pd-bottom">Qucik Links</h3>
+          <ul role="list">
+            <li class="pd-bottom">
+              <b class="text-secoundary fw-bold">&#x2713;</b>
+              <a href="" class="text-primary fs-small fw-regular">Our Services</a>
+            </li>
+            <li class="pd-bottom">
+              <b class="text-secoundary fw-bold">&#x2713;</b>
+              <a href="" class="text-primary fs-small fw-regular">Our Portfolio</a>
+            </li>
+            <li class="pd-bottom">
+              <b class="text-secoundary fw-bold">&#x2713;</b>
+              <a href="" class="text-primary fs-small fw-regular">Contact</a>
+            </li>
+            <li class="pd-bottom">
+              <b class="text-secoundary fw-bold">&#x2713;</b>
+              <a href="" class="text-primary fs-small fw-regular">News</a>
+            </li>
+          </ul>
+        </div>
+        <div class="recent-news">
+          <h3 class="text-primary fs-semimedium fs-larger">Recent New</h3>
+          <ul role="list">
+            <li class="pd-block">
+              <i class="fa-regular fa-clock text-primary"></i>
+              <a href="" class="text-primary fs-small fw-regular">Blocks (2)</a>
+            </li>
+            <li class="pd-bottom">
+              <i class="fa-regular fa-clock text-primary"></i>
+              <a href="" class="text-primary fs-small fw-regular">FSE (2)</a>
+            </li>
+            <li class="pd-bottom">
+              <i class="fa-regular fa-clock text-primary"></i>
+              <a href="" class="text-primary fs-small fw-regular">Gutenify (2)</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="quick-contact">
+          <h3 class="text-primary fs-semimedium fs-larger">Quick Contact</h3>
+          <ul role="list">
+            <li class="text-primary fs-small fw-bold pd-block">New South Wales, Australia</li>
+            <li class="text-primary fs-small fw-bold pd-bottom">example@example.com</li>
+            <li class="text-primary fs-small fw-bold pd-bottom">123 3456679</li>
+            <li class="text-primary fs-small fw-bold pd-bottom">10 AM – 5 PM</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="footer-bottom">
+        <div class="follow-us">
+          <h3 class="text-primary fs-semimedium fs-larger">Follow Us</h3>
+          <ul role="list">
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <h3 class="text-primary fs-semimedium fs-larger">Subscribe Our Newsletter</h3>
+          <form action="">
+            <input type="email" placeholder="Your email address" required>
+            <button>Sign up</button>
+          </form>
+        </div>
+        <div class="payment">
+          <h3 class="text-primary fs-semimedium fs-larger pd-bottom">Payment</h3>
+          <img src="./image/payment.png" alt="">
+        </div>
+      </div>
+      <p class="text-primary fs-small fw-regular">Proudly powered by Gutenify and WordPress.</p>
+    </div>
+
+    <button id="top-up-button">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
